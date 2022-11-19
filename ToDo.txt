@@ -1,0 +1,18 @@
+
+Short Term:
+Separate my financial data somehow without having to maintain multiple branches or something. Maybe a JSON file that can be maintained somewhere separately?
+Clean up the code that is specific to my situation, and make it more usable for everyone
+impliment multiple cash flows! This is going to be hard
+Create a better desktop screen layout. Right now it is *very* mobile-first.
+
+Long Term:
+Rebuild this entire thing in a web framework, maybe Django or Ruby on Rails. NOT ASP.NET, PLEASE
+Create user accounts
+store user data in a database
+
+
+Dream Features:
+Connect to a bank account, so it can actually monitor what bills have gone through, how much you got paid, and all of the cool things you could do with that information
+Automatically transfer funds
+automatically pay bills
+A *literal* personal accountant, only alerts you when there is a problem that the software can't solve. Otherwise all of your bills are taken care of and hands-off
