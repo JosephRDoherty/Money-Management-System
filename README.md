@@ -80,3 +80,15 @@ It should also be exportable as a spreadsheet at any time, for any user who may 
 
 Because I like Python, I will most likely attempt to rebuild this in Django. However I haven't used Django yet, so that may change depending on how I like it.
 I am a front end developer, and do not have much experience with back end technologies. So this may be a challenge.
+
+
+
+
+COPYRIGHT JOSEPH DOHERTY 2022
+
+This software is free to use and change for personal use.
+This software IS NOT FREE for any organization to use or sell.
+Sale of this software by anyone other than the creator or authorized personnel is strictly forbidden.
+If you are an organization who wants to use this software, please contact me.
+
+joseph@doherty.software

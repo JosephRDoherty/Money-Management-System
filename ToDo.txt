@@ -12,7 +12,8 @@ store user data in a database
 
 
 Dream Features:
-Connect to a bank account, so it can actually monitor what bills have gone through, how much you got paid, and all of the cool things you could do with that information
+Connect to a bank account, so it can actually monitor what bills have gone through, how much you got paid, and all of the cool things you could do with that information.
+Maybe even sell this software to a bank, to impliment on their site. Value-add.
 Automatically transfer funds
 automatically pay bills
 A *literal* personal accountant, only alerts you when there is a problem that the software can't solve. Otherwise all of your bills are taken care of and hands-off
