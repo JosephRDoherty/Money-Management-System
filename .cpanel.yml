@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dohewjes/public_html/
+    - export DEPLOYPATH=/home/dohewjes/public_html/money-management-system
     - /bin/cp mms.html $DEPLOYPATH
     - /bin/cp cashFlowStyles.css $DEPLOYPATH
     - /bin/cp creditCardCalcStyles.css $DEPLOYPATH
