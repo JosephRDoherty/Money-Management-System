@@ -1,12 +1,12 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dohewjes/public_html/money-management-system
+    - export DEPLOYPATH=/home/dohertyjoe198/public_html/money-management-system
     - /bin/cp mms.html $DEPLOYPATH
     - /bin/cp cashFlowStyles.css $DEPLOYPATH
     - /bin/cp creditCardCalcStyles.css $DEPLOYPATH
     - /bin/cp -R MMS-js $DEPLOYPATH
-    #- export REPOPATH=/home/dohewjes/repositories/Money-Management-System
+    #- export REPOPATH=/home/dohertyjoe198/repositories/Money-Management-System
     #- /rm -Rf ${DEPLOYPATH}_old
     #- /cp -R ${DEPLOYPATH} ${DEPLOYPATH}_old
     #- /rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
