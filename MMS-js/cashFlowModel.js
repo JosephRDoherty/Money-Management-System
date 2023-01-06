@@ -162,40 +162,46 @@ const billList = [];
 // commented out typically means paid off
 let wellsFargo = new Bill("Wells Fargo Card", 37, 2, "Credit Card");
 let elizaPayPal = new Bill("Elizabeth PayPal", 76, 2, "Credit Card");
-let geico = new Bill("Joe's Car Insurance", 178.05, 2, "Insurance");
+//let geico = new Bill("Joe's Car Insurance", 178.05, 2, "Insurance");
+let carIns = new Bill("Car Insurance", 180.33, 2, "Insurance");
 let spotify = new Bill("Spotify", 12.99, 4, "Streaming");
-let capOne = new Bill("Capital One 1", 25, 4, "Credit Card");
+//let capOne = new Bill("Capital One 1", 25, 4, "Credit Card");
 let rentInsurance = new Bill("Renters Insurance", 14.42, 5, "Insurance");
 let adobe = new Bill("Adobe", 29.99, 6, "Utility");
 //let rings = new Bill("Rings", 25, 8, "Credit Card"); PAID OFF!!!!!
 let internet = new Bill("Ziply Internet", 50, 10, "Utility");
-let washer = new Bill("Home Depot Card", 34, 11, "Credit Card");
-//let affirm1 = new Bill("Affirm 1", 22.62, 12, "Credit Card"); PAID OFF!!!!!
+//let washer = new Bill("Home Depot Card", 34, 11, "Credit Card");
 let rent = new Bill("Rent", 1250, 12, "Misc");
 let backRent = new Bill("Back Rent", 200, 26)
-let capTwo = new Bill("Capital One 2", 25, 12, "Credit Card");
-//let affirm2 = new Bill("Affirm 2", 22.30, 13, "Credit Card"); PAID OFF!!!!!
+//let capTwo = new Bill("Capital One 2", 25, 12, "Credit Card");
 let eCareCredit = new Bill("Elizabeth Care Credit", 29, 13, "Credit Card");
 // let destinyCard = new Bill("Destiny Card", 40, 13, "Credit Card"); PAID OFF!!!!!
 let trash = new Bill("Trash", 34.72, 1, "Utility");
-//let chaseCard = new Bill("Chase Card", 40, 15, "Credit Card"); PAID OFF!!!!!
+let chaseCard = new Bill("Chase Card", 40, 15, "Credit Card");
 //let jCareCredit = new Bill("Joe's Care Credit", 29, 16, "Credit Card"); PAID OFF!!!!!
 //let creditOne = new Bill("Credit One Card", 30, 16, "Credit Card"); PAID OFF!!!!!
 let jPayPal = new Bill("Joe's PayPal", 65, 16, "Credit Card");
 let jUpstart = new Bill("Joe's Upstart", 194.54, 17, "Credit Card");
 let phoneBill = new Bill("Verizon", 115.05, 18, "Utility");
-let fortivaCard = new Bill("Fortiva Card", 59, 18, "Credit Card");
+//let fortivaCard = new Bill("Fortiva Card", 59, 18, "Credit Card");
 let eUpstart = new Bill("Elizabeth's Upstart", 213.05, 13, "Credit Card");
 let gymMembership = new Bill("Gym Membership", 25, 17, "Utility");
 let powerBill = new Bill("Power Bill", 100, 20, "Utility");
 let googleDrive = new Bill("Google Drive", 9.99, 20, "Utility");
 let disneyPlus = new Bill("Disney+", 7.99, 27, "Streaming");
-let elizaGeico = new Bill("Elizabeth's Geico", 15, 27, "Insurance");
+//let elizaGeico = new Bill("Elizabeth's Geico", 15, 27, "Insurance");
 //let xboxCard = new Bill("Xbox Card", 35, 28, "Credit Card"); PAID OFF!!!!!
 let carPayment = new Bill("Car Payment", 332.79, 28, "Misc");
 //let backTaxes = new Bill("Back Taxes", 35, 28, "Credit Card"); PAID OFF!!!!!
 let gas = new Bill("Gas", 120, "N/A", "Utility");
 let food = new Bill("Food", 300, "N/A", "Misc");
+// Temporary Debts
+let ps5 = new Bill("PS5", 53.62, 15, "Temporary Debt: Owe 536.44 on 1/5/2023");
+let eGifts = new Bill("Elizabeth's Small Gifts", 20.86, 5, "Temporary Debt: 4 payments");
+let watch = new Bill("Christmas Watch", 38, 2, "Temporary debt, every two weeks");
+let watch2 = new Bill("Christmas Watch 2nd Payment", 38, 16, "Temporary debt, every two weeks");
+let shoes = new Bill("Shoe payment", 52.50, 24, "Temporary Debt, every two weeks");
+let shoes2 = new Bill("Shoe payment 2nd payment", 52.50, 10, "Temporary Debt, every two weeks");
 
 
 
